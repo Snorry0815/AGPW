@@ -95,7 +95,7 @@ namespace AGPW
 		{
 			this.scrollInnerWindow = new Rect(0,0,0,0);
 			AddObjectStateSize();
-			AddCommandSize(2);
+			AddCommandSize(3);
 
 			float windowWidth = this.scrollInnerWindow.width;
 			if(this.scrollInnerWindow.width < title.Length*this.LetterSize)
@@ -171,13 +171,22 @@ namespace AGPW
 
 		private int AddCommand(int yPos)
 		{
-			if (GUI.Button(new Rect (0, yPos, this.scrollWindowTextSize, this.LineSize), "Delete")) 
+			if(this.selectedObject != null)
 			{
-				this.showMenu = false;
-				Destroy(this.selectedObject);
-				this.selectedObject = null;
+				if (GUI.Button(new Rect (0, yPos, this.scrollWindowTextSize, this.LineSize), "Reset")) 
+				{
+					SignalSystem.SignalTriggered(new ResetObjectSignal(this.selectedObject));
+				}
+				yPos += this.LineSize;
+				if (GUI.Button(new Rect (0, yPos, this.scrollWindowTextSize, this.LineSize), "Delete")) 
+				{
+					this.showMenu = false;
+					Destroy(this.selectedObject);
+					this.selectedObject = null;
+				}
+				yPos += this.LineSize;
+
 			}
-			yPos += this.LineSize;
 
 			if (GUI.Button(new Rect (0, yPos, this.scrollWindowTextSize, this.LineSize), "OK")) 
 			{

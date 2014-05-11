@@ -46,13 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AGPW_1_2.1\Scripts\AIDiagnosticGameState.cs" />
-     <Compile Include="Assets\AGPW_1_2.1\Scripts\AIDiagnosticInputListener.cs" />
-     <Compile Include="Assets\AGPW_1_2.1\Scripts\AIDiagnosticMenu.cs" />
-     <Compile Include="Assets\AGPW_1_2.1\Scripts\AIDiagnosticState.cs" />
-     <Compile Include="Assets\AGPW_1_2.1\Scripts\Inspector\UnitIdentificationInspector.cs" />
-     <Compile Include="Assets\AGPW_1_2.1\Scripts\Signals\ResetObjectSignal.cs" />
-     <Compile Include="Assets\AGPW_1_2.1\Scripts\Signals\ShowAIDiagnosticMenuSignal.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticGameState.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticInputListener.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticMenu.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticState.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Inspector\UnitIdentificationInspector.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Signals\ResetObjectSignal.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Signals\ShowAIDiagnosticMenuSignal.cs" />
      <Compile Include="Assets\Scripts\General\Billboard.cs" />
      <Compile Include="Assets\Scripts\General\EnumLogic.cs" />
      <Compile Include="Assets\Scripts\SimpleSignalSystem\ISignal.cs" />

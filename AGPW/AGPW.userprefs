@@ -1,13 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AGPW_1_2.1\Scripts\Inspector\UnitIdentificationInspector.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Inspector\GenericValueInspector.cs">
     <Files>
-      <File FileName="Assets\AGPW_1_2.1\Scripts\AIDiagnosticGameState.cs" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\SimpleSignalSystem\SignalHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SimpleSignalSystem\SignalSystem.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\General\EnumLogic.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\General\Billboard.cs" Line="1" Column="1" />
-      <File FileName="Assets\AGPW_1_2.1\Scripts\Inspector\UnitIdentificationInspector.cs" Line="41" Column="3" />
+      <File FileName="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Inspector\GenericValueInspector.cs" Line="1" Column="1" />
+      <File FileName="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticInputListener.cs" Line="1" Column="1" />
+      <File FileName="Assets\AGPW_1_2.2_TriggerSystem\Scripts\ITriggerSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\AGPW_1_2.2_TriggerSystem\Scripts\TriggerSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticGameState.cs" Line="1" Column="1" />
+      <File FileName="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Inspector\UnitIdentificationInspector.cs" Line="1" Column="1" />
+      <File FileName="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticState.cs" Line="1" Column="1" />
+      <File FileName="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Inspector\GenericValueInspector.cs" Line="11" Column="1" />
+      <File FileName="Assets\AGPW_1_2.2_TriggerSystem\Scripts\TriggerSystemManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

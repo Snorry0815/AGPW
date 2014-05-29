@@ -50,9 +50,15 @@
      <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticInputListener.cs" />
      <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticMenu.cs" />
      <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\AIDiagnosticState.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Inspector\GenericValueInspector.cs" />
+     <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Inspector\GenericValueInspectorCreator.cs" />
      <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Inspector\UnitIdentificationInspector.cs" />
      <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Signals\ResetObjectSignal.cs" />
      <Compile Include="Assets\AGPW_1_2.1_AIDiagnostic\Scripts\Signals\ShowAIDiagnosticMenuSignal.cs" />
+     <Compile Include="Assets\AGPW_1_2.2_TriggerSystem\Scripts\Example\TriggerType.cs" />
+     <Compile Include="Assets\AGPW_1_2.2_TriggerSystem\Scripts\ITriggerSystem.cs" />
+     <Compile Include="Assets\AGPW_1_2.2_TriggerSystem\Scripts\TriggerSystem.cs" />
+     <Compile Include="Assets\AGPW_1_2.2_TriggerSystem\Scripts\TriggerSystemManager.cs" />
      <Compile Include="Assets\Scripts\General\Billboard.cs" />
      <Compile Include="Assets\Scripts\General\EnumLogic.cs" />
      <Compile Include="Assets\Scripts\SimpleSignalSystem\ISignal.cs" />

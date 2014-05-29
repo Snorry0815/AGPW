@@ -5,9 +5,11 @@ namespace AGPW
 {
 	public class AIDiagnosticInputListener : MonoBehaviour 
 	{
+		public KeyCode enableKey;
+
 		void Update () 
 		{
-			if (Input.GetKeyDown(KeyCode.F1)) 
+			if (Input.GetKeyDown(enableKey)) 
 			{
 				AIDiagnosticGameState instance = AIDiagnosticGameState.Instance();
 				switch(instance.GlobalGameState)
